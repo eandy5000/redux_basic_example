@@ -1,1 +1,1 @@
-# using redux to make a tinder clone 
+# building a very basic redux app
