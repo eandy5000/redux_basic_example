@@ -1,6 +1,6 @@
 export default function() {
     return [
-        {title: 'one'},
+        {title: 'uno'},
         {title: 'two'},
         {title: 'three'},
         {title: 'four'},
