@@ -1,10 +1,7 @@
-import { combineReducers } from 'redux'
-import BooksReducer from './reducer-books'
-import ActiveBook from './reducer-active-book'
+import { combineReducers} from 'redux'
 
-const rootReducer = combineReducers({
-    books: BooksReducer,
-    activeBook: ActiveBook
+const rootReducers = combineReducers({
+    state: ((state = {}) => state)
 })
 
-export default rootReducer
+export default rootReducers 
