@@ -4,7 +4,7 @@ import selectedDay from './selected_day_reducer';
 
 const rootReducers = combineReducers({
     days: daysReducer,
-    selectedDay: selectedDay
+    selectedDay
 });
 
 export default rootReducers;
