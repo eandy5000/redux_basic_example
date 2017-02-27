@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
+import  daysReducer from './days_reducer';
+import selectedDay from './selected_day_reducer';
 
 const rootReducers = combineReducers({
-    state: (state = {}) => state
+    days: daysReducer,
+    selectedDay: selectedDay
 });
 
 export default rootReducers;
